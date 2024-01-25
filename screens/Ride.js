@@ -175,7 +175,7 @@ export default class RideScreen extends Component {
           // caso contrário, será "return"
 
           //transactionType = doc.data().is_bike_available ? "rented" : "return";
-          //transactionType = doc.data().is_bike_available ? "rented" ? "return";
+          transactionType = doc.data().is_bike_available ? "rented" ? "return";
           //transactionType === doc.data().is_bike_available ? "rented" : "return";
           //transactionType = doc.data().is_bike_available ? "rented" "return";
 
