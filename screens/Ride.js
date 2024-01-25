@@ -143,11 +143,11 @@ export default class RideScreen extends Component {
           //  bikeAssigned= doc.data().bike_assigned
           //});
 
-          //this.setState({
-          //  userName: doc.data().name
-          //  userId: doc.data().id
-          //  bikeAssigned: doc.data().bike_assigned
-          //});
+          this.setState({
+        userName: doc.data().name
+           userId: doc.data().id
+            bikeAssigned: doc.data().bike_assigned
+          });
 
           //this.setState({
           //  userName: doc.data().name,
